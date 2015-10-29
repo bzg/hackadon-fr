@@ -1,4 +1,4 @@
 name: Hackadon
 description: "Hackadon: libérons le libre et les biens communs !"
 paginate: 10
-baseurl: '/fr'
+baseurl: ''
