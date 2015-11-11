@@ -7,7 +7,7 @@
     <meta name="keywords" content="hackadon libre biens communs donner" />
     <!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script><![endif]-->
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-    <!-- <script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script> -->
+    <script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/skel-layers.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/init.js"></script>
@@ -36,13 +36,15 @@
 	<ul>
 	  {% assign current = page.url | downcase | split: '/' %}
 	  <li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Accueil</a></li>
-	  <!-- <li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li> -->
+	  <li {% if current[1] == 'blog' %}class="current"{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
+	  <li>
 	  <a href="">Hackadons</a>
 	  <ul>
 	    <li><a href="https://hackadon.org/hackadons2015/paris-withoutmodel.html">Paris</a></li>
 	    <li><a href="https://hackadon.org/hackadons2015/nice-epitech-oslantis.html">Nice</a></li>
 	    <li><a href="https://hackadon.org/hackadons2015/orleans-labomedia-artefact.html">Orléans</a></li>
 	  </ul>
+	  </li>
 	  <li {% if current[1] == 'faq.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/faq.html">F.A.Q.</a></li>
 	  <li {% if current[1] == 'manifeste.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/manifeste.html">Manifeste</a></li>
 	  <li {% if current[1] == 'qui-sommes-nous.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/qui-sommes-nous.html">Qui sommes-nous ?</a></li>
