@@ -1,4 +1,6 @@
 name: Hackadon
-description: "Hackadon: libérons le libre et les biens communs !"
+description: "Hackadon: libérons le libre et les biens communs avec des dons !"
+gems: [jekyll-paginate]
+paginate_path: "page:num"
 paginate: 10
 baseurl: ''
