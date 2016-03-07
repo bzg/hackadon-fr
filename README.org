@@ -1,6 +1,6 @@
-#+TITLE: Dépôt Git du site hackadon.org/fr
+#+TITLE: Dépôt Git du site hackadon.org
 
 Ce dépôt contient le site statique qui produit les pages visibles sur
-http://hackadon.org/fr/.
+https://hackadon.org
 
 Toutes les contributions sont les bienvenues !
