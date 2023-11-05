@@ -1,6 +1,6 @@
 #+TITLE: Dépôt Git du site hackadon.org
 
 Ce dépôt contient le site statique qui produit les pages visibles sur
-https://hackadon.org
+https://hackadon.bzg.fr
 
 Toutes les contributions sont les bienvenues !
